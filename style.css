@@ -81,6 +81,7 @@ nav {
 }
 
 h1,
+h2,
 h3 {
     color: #176273;
     font-family: "Kdam Thmor Pro", sans-serif;
@@ -92,9 +93,12 @@ h3 {
 }
 
 h2 {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(23, 98, 115, 1);
     font-size: 15px;
-    text-align: center;
+    text-shadow: none;
+    padding: 10px;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 section {
@@ -104,11 +108,19 @@ section {
     padding: 10px;
 }
 
+p {
+    color: #176273;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    text-shadow: none;
+    font-size: 12px;
+    text-wrap: wrap;
+    font-style: italic;
+}
+
 .imagesection__grid {
     align-items: center;
     display: flex;
     flex-direction: column;
-
     gap: 10px
 }
 
