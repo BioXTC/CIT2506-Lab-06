@@ -31,55 +31,39 @@ footer {
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
     display: flex;
     float: left;
     height: 150px;
-    justify-content: center;
     margin-top: 10px;
     position: fixed;
     width: 12%;
+    
 }
 
 .nav__list {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 27px;
     list-style-type: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .nav__list-item {
     display: inline-block;
-    text-align: center;
+    text-align: left;
+
 }
 
 .nav__list-item-link {
-    text-decoration: none;
-}
-
-.buttonClass {
-    background: linear-gradient(rgba(45, 166, 166, 1), rgba(23, 98, 115, 1));
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-color: rgba(45, 166, 166, 1);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-width: 1px;
-    box-shadow: inset 0px 1px 0px 0px rgba(45, 166, 166, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    color: rgba(23, 98, 115, 1);
     font-family: "Kdam Thmor Pro", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    height: 50px;
-    padding: 5px 10px;
-    width: 140px;
-}
-
-.buttonClass:hover {
-    background: linear-gradient(rgba(23, 98, 115, 1), rgba(45, 166, 166, 1));
+    padding: 10px;
+    text-decoration: none;
 }
 
 h1,
@@ -108,6 +92,7 @@ section {
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
     margin: 10px;
     padding: 10px;
+    min-width: 90%;
 }
 
 .section__title-background {
@@ -133,9 +118,9 @@ p {
 hr {
     border: 1px solid rgba(23, 98, 115, 0.5);
     margin: 0 auto;
-    margin-top: 5px;
     margin-bottom: 5px;
-    width: 35%; 
+    margin-top: 5px;
+    width: 35%;
 }
 
 .imagesection__grid {
@@ -159,13 +144,13 @@ hr {
 }
 
 .linksection__link {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
     color: #176273;
+    display: flex;
     font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    justify-content: center;
     text-align: center;
+    text-decoration: none;
 }
