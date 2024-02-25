@@ -33,7 +33,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     position: fixed;
     width: 20%;
     height: 170px;
@@ -58,10 +58,10 @@ nav {
 }
 
 .buttonClass {
-    background: linear-gradient(#ffec64, #ffab23);
+    background: linear-gradient(#2DA6A6, #176273);background: linear-gradient(#F2CE1B, #D9AA1E);
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-color: #ffaa22;
+    border-color: #2DA6A6;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-width: 1px;
@@ -78,7 +78,8 @@ nav {
 }
 
 .buttonClass:hover {
-    background: linear-gradient(#ffab23, #ffec64);
+    
+    color: white;
 }
 
 h1,
