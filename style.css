@@ -8,31 +8,59 @@ html {
     width: 100%;
 }
 
-header {
-    background-image: url("./images/hd2_banner.webp");
-    height: 480px;
-    width: 100%;
-    background-repeat: no-repeat;
-}
-.header__nav-list {
-    list-style-type: none;
+body {
+    
+    background-color: #2DA6A6;
 }
 
-.header__nav-list-item {
+main {
+    width: 80%;
+    margin-left: 20%;
+}
+
+header {
+
+}
+
+footer {
+    clear: both;
+    background-color: #F2CE1B;
+}
+
+nav { 
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 20%;  
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    
+    gap: 10px;
+}
+
+.nav__list-item {
     display: inline-block;
     
 }
 
-.header__nav-list-link {
+.nav__list-item-link {
     text-decoration: none;
 }
 
-body {}
-
-main {}
+h1,
+h2,
+h3 {
+    text-align: center;
+}
 
 
 #about {}
+
 
 #images {}
 
