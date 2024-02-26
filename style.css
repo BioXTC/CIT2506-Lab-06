@@ -12,11 +12,6 @@ body {
     background-color: #2DA6A6;
 }
 
-main {
-    margin-left: 10%;
-    width: 90%;
-}
-
 header img {
     box-shadow: 0 5px rgba(0, 0, 0, 0.5);
     display: block;
@@ -24,33 +19,37 @@ header img {
     width: 100%;
 }
 
-footer {
-    background-color: #F2CE1B;
-    clear: both;
-    padding: 5px;
+.flex__container {
+    display: flex;
+    justify-content: center;
 }
 
 nav {
-    display: flex;
+    height: auto;
     justify-content: left;
+    min-width: 60px;
     width: 10%;
 }
 
+main {
+    width: 80%;
+}
+
 .nav__list {
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     list-style-type: none;
+    margin-top: 10px;
+    min-width: 80px;
     position: fixed;
 }
 
 .nav__list-item {
-    display: inline-block;
-    text-align: left;
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
-
+    display: inline-block;
+    text-align: left;
 }
 
 .nav__list-item-link {
@@ -92,8 +91,8 @@ section {
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
     margin: 10px;
-    padding: 10px;
     min-width: 90%;
+    padding: 10px;
 }
 
 .section__title-background {
@@ -133,6 +132,7 @@ hr {
     align-items: center;
     display: flex;
     flex-direction: column;
+
     gap: 10px
 }
 
@@ -161,5 +161,10 @@ hr {
 }
 
 .linksection__link:hover {
-  color: rgba(23, 98, 115, 0.8);
+    color: rgba(23, 98, 115, 0.8);
+}
+
+footer {
+    background-color: #F2CE1B;
+    padding: 5px;
 }
