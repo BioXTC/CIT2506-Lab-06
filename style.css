@@ -32,13 +32,12 @@ footer {
 
 nav {
     display: flex;
-    float: left;
-    height: 150px;
-    margin-top: 10px;
+    justify-content: left;
     width: 12%;
 }
 
 .nav__list {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
