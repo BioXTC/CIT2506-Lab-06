@@ -52,7 +52,6 @@ main {
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
     display: inline-block;
-    text-align: left; 
     text-align: center;
 }
 
@@ -78,7 +77,6 @@ h3 {
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
-    text-align: center;
     text-shadow: 2px 3px rgba(0, 0, 0, 0.2);
 }
 
